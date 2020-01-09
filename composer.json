@@ -1,9 +1,11 @@
 {
   "name":"arefev/soap-module",
   "version":"1.0.0",
+  "type": "bitrix-d7-module",
   "require":{
     "php":">=7.2",
-    "monolog/monolog": "1.23"
+    "monolog/monolog": "1.23",
+    "composer/installers": "~1.0"
   },
   "autoload":{
     "psr-0":{
